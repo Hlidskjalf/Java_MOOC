@@ -1,3 +1,5 @@
+import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+
 import java.util.Scanner;
 
 public class Week_one {
@@ -12,7 +14,8 @@ public class Week_one {
         //multiply();
         //adder();
         //circumference();
-        findTheBiggerNumber();
+        //findTheBiggerNumber();
+        namesAndAges();
     }
 
     public static void name() {
@@ -116,4 +119,22 @@ public class Week_one {
         int larger = (x > y) ? x : y;
         System.out.println("The larger of the two is: " + larger);
     }
+
+    public static void namesAndAges() {
+        String nameOne;
+        String nameTwo;
+        int ageOne;
+        int ageTwo;
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the first name and the age: ");
+        nameOne = input.next();
+        ageOne = input.nextInt();
+        System.out.println("Enter the second name and age: ");
+        nameTwo = input.next();
+        ageTwo = input.nextInt();
+
+        System.out.println("The sum of the ages of " + nameOne + " and " + nameTwo + " is: " + (ageOne + ageTwo));
+    }
+
 }
