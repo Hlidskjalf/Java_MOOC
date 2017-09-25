@@ -1,3 +1,5 @@
+package pak;
+
 import java.util.Scanner;
 
 public class Week_one {
@@ -13,7 +15,8 @@ public class Week_one {
         //adder();
         //circumference();
         //findTheBiggerNumber();
-        namesAndAges();
+        //namesAndAges();
+        Week_two.trial();
     }
 
     public static void name() {
