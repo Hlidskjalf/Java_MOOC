@@ -5,19 +5,15 @@ import java.util.Scanner;
 public class Week_one {
 
     public static void main(String[] args) {
-        //name();
-        //HelloWorld();
-        //Spruce();
-        //farmTracker();
-        //secondsPerYear();
-        //add();
-        //multiply();
-        //adder();
-        //circumference();
-        //findTheBiggerNumber();
-        //namesAndAges();
-        //Week_two.trial();
-        Week_two.add(5, 8);
+        useAdd();
+
+    }
+
+    public static void useAdd() {
+        int numOne = 5;
+        int numTwo = 13;
+
+        Week_two.add(numOne, numTwo);
     }
 
     public static void name() {
