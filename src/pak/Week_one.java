@@ -16,7 +16,8 @@ public class Week_one {
         //circumference();
         //findTheBiggerNumber();
         //namesAndAges();
-        Week_two.trial();
+        //Week_two.trial();
+        Week_two.add(5, 8);
     }
 
     public static void name() {
