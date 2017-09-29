@@ -13,6 +13,9 @@ public class Week_one {
         int numOne = 5;
         int numTwo = 13;
 
+        numOne = numOne * numTwo;
+        numTwo = numOne * numTwo;
+
         Week_two.add(numOne, numTwo);
     }
 
