@@ -6,7 +6,7 @@ public class Week_one {
 
     public static void main(String[] args) {
         useAdd();
-        System.out.println("\u2295");
+        System.out.println("a \u2208 A");
 
     }
 
