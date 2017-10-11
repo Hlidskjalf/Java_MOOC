@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MOOC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MOOC_jar</output-path>
+    <root id="archive" name="MOOC.jar">
+      <element id="module-output" name="MOOC" />
+    </root>
+  </artifact>
+</component>
