@@ -1,12 +1,20 @@
 package pak;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Week_one {
 
     public static void main(String[] args) {
-        useAdd();
-        System.out.println("a \u2208 A");
+        //Create and set up the window.
+        JFrame frame = new JFrame("DialogDemo");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        //Display the window.
+        frame.pack();
+        frame.setVisible(true);
+        JOptionPane.showMessageDialog(frame,
+                "Eggs are not supposed to be green.");
 
     }
 
